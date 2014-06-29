@@ -1,0 +1,132 @@
+/*
+    Document   : style_GloriousMusicStore
+    Created on : Jan 12, 2012, 8:00:23 PM
+    Author     : Jeffrey Nursalim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+  font-family: Arial, Verdana, Garamond;
+  font-size: 12 pt
+  }
+
+h1,h2 {
+  color: orange;
+  }
+
+p {
+  width: 80%;
+  margin-left: 0;
+  margin-right: auto
+}
+
+h1,h2,ol,ul {
+  width: auto;
+  margin-left: 0;
+  margin-right: auto
+  }
+
+a {
+  color: black
+  }
+
+a:hover {
+  color: orange;
+  font-weight: bolder;
+  }
+
+table {
+
+  margin-left: 0;
+  margin-right:auto;
+  }
+  .menu {
+
+    }
+  .menuword {
+
+    }
+  .menuwordselect {
+	font-weight: bolder;
+    font-style: italic;
+    }
+  .menupipe {
+
+    }
+  .tableforinput {
+    width: auto;
+    }
+  .tablefordisplay {
+     width: 80%;
+	 border: 2px solid black;
+     border-collapse:collapse;
+   }
+
+th {
+  color: red;
+  text-align: left;
+  }
+  .headingfordisplay {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+tr {
+
+  }
+  .rowfordisplay {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+td {
+
+  }
+  .datacellfordisplay {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+fieldset {
+  width: 80%;
+}
+
+legend {
+  color: red;
+}
+
+div{
+
+}
+    .highlight{
+    	background-color:Yellow;
+    }
+    .original{
+    	background-color:Green;
+    }
+
+img {
+
+  }
+  .align-right {
+    float: right;
+	margin-left: 5px;
+	margin-right: 5px
+	}
+
+  .align-left {
+    float: left;
+    margin-left: 5px;
+	margin-right: 5px
+    }
+
+caption {
+  caption-side: bottom;
+  font-style: italic
+}
